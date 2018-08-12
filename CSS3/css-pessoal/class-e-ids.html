@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Classe e IDs</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			
+			#fundo{ /* exemplo do uso de ID na linha 40*/
+				background: gold;
+			}
+			/* As linhas a baixo são referentes ao uso
+			de class*/
+			.centralizar{ /* veja a aplicação desta classe nas linhas 48 e 69 */
+				text-align: center;
+				color: green;
+			}
+			/* Note o uso dos seletores para definição de estilo geral da pagina
+			e o uso de classes para gerar exceçoes desse estilo padrão*/
+			h1{
+				color: red;
+				text-align: center;
+			}
+			p{
+				color: blue;
+				text-align: justify;
+			}
+			h2{
+				color: purple;
+			}
+			h3{
+				color:brown;
+			}
+			h4{
+				color: magenta;
+			}
+
+		</style>
+
+	</head>
+	<body id="fundo">
+		<a href="/home/quevem/MEGAsync/Udamy/Desenvolvimento-Web">Todos Projetos</a>
+		<h1>Classe e IDs</h1>
+		<h2>Oque são IDs?</h2>
+		<p>
+			IDs são identificadores. Da mesma forma que o numero de uma poutrona serva para identifica-la como única dentro de um onibus os IDs são referências para pontos únicos no código.
+		</p>
+		<h3>Definição de um ID</h3>
+		<p class="centralizar">
+			<em># nome-do-elemento {}</em>
+		</p>
+		<p>
+			O ID é usado somente uma vez por página e quando houver trabalhos com java script. A recomentação é que  faça o uso de IDs para estruturar o sit.<br>
+			Quandro precizar fzer formatações especificas para mais de um elemento em uma pagina aconcelha-se o uso das de uma classe.
+		</p>
+		<hr>
+		<h2>Oque são classes?</h2>
+		<p>
+			Classe pode ser descrita como um conjunto de itens com caracteristicas em comum. Por exemplo homens pertencem a classe do sexo mascolino.
+		</p>
+		<h3>Aplicando classes</h3>
+		<p>
+			<h4>Definindo uma classe</h4>
+			<p>
+				Para definir uma classe usamos o caractere <strong>.(ponto), nome da class e {}</strong><br>
+				Exemplo:<br>
+				.arbuto{ color:green; }
+			</p>
+			<h4>Usando uma classe</h4>
+			<p class="centralizar">
+				Escolha uma tag e adicione nela o atributo <em>class="nome-classe" </em>Perceba que não faz uso do ponto pois o ponto serve apenas para indicar a criação/definição de uma classe.<br>
+				<em>A ideia de formatar usando classes é uma forma mais especifica de estilisar, por outro lado o uso de seletores para uma formatação mais geral. Ou seja, usamos classe para exceções.<br> <strong>Voce pode ver essa diferença mostrando no navegador o código fonte desta pagina.</strong></em>
+			</p>
+		</p>
+		<hr>
+		<br><br><br>
+	</body>
+</html>

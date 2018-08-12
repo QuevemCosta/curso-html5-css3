@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bordas</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			#topo{
+				border-style: ridge;
+				border-color: gold;
+				border-width: 2px;
+				background: #1C1C1C;
+			}
+			#fundo-body{
+				background:#BDBDBD;
+
+			}
+			.padrao{
+				background: #E6E6E6;
+			}
+			h1{
+				text-align: center;
+				color:gold;
+				font-size: 50px;
+				font-style: "Times New Roman", Times, serif;
+			}
+			h2{
+				color:#C7C110;
+				font-family:"Times New Roman", Times, serif; 
+			}
+			a{
+				color: gold;
+				background: #1C1C1C;
+			}
+			span{
+				color: red;
+			}
+			.marcar-texto{
+				color: blue;
+
+			}
+			.comentario{
+				color: green;
+			}
+			.bordas{
+				border: 2px ridge gold;
+			}
+			.exemplo-borda{
+				border-width: 1px 5px 10px 15px;;
+				border-style: solid dotted dashed groove;
+				border-color: red blue gold green;
+
+				font-size: 50px;
+			}
+			.exemplo2-borda{
+				border-width: 5px 10px;
+				border-style: dotted groove;
+				border-color: red green;
+
+				font-size: 30px;
+			}
+			.centralizar{
+				text-align: center
+			}
+
+		</style>
+	</head>
+	<body id="fundo-body">
+		<div id="topo">
+			<h1>Bordas</h1>
+			<ul>
+				<li>
+					<a href="file:///home/quevem/%C3%81rea%20de%20Trabalho/projetos.html">Home</a>
+				</li>
+			</ul>
+		</div>
+		<div class="padrao"><br>
+			<h2>Bordas simples</h2>
+			<p>
+				Para usarmos bordas precisamos primeiramente definir três valores usando a propiedade <strong class="marcar-texto">border:</strong>
+				<strong class="marcar-texto" > espesura, tipo da borda e cor.</strong><br>
+				De uma forma mais simples você pode sintetizar tudo em um único comando onde temos a propiedade seguida dos valores na ordem apresentada acima mas sem as vírgulas.Veja:
+				<table align="center" class="bordas">
+					<tr>
+						<td>
+							<em class="marcar-texto">
+								 border: 1px solid red;
+							</em>
+							 <em>
+							 	<strong class="comentario">
+								 	/*Este código define uma borda solida com 1 pixel de espesura na cor vermelha.*/
+							 	</strong>
+							</em>
+
+							</em>
+						</td>
+					</tr>
+				</table>
+
+			</p>
+			<p>
+				Essa é a forma simplificada de adicionar bordas. As bordas podem ser adicionadas em praticamente todas as tags HTML, se você abrir o códico fonte desta pagina no navegador verá a aplicação na pratica do uso das bordas.
+			</p>
+			<h2>Bordas completas</h2>
+			<p>
+				Bem, como visto no topico anterior temos uma forma simples de se criar bordas.Veremos agora um formato mais completo e que da ao desenvolvedor possibilidades mais avançadas.
+			</p>
+			<p>
+				Atravéz de propiedades mais especificas como <em class="marcar-texto">border-color: border-width: e border-style:</em> você pode personalizar de forma mais profunda a aparencia da borda. Vale lembrar que estas não são as unicas propiedades derivadas de bordas.Vamos exemplificar.
+
+			</p>
+			<table class="bordas" align="center">
+				<tr>
+					<td>
+						<em class="marcar-texto">
+							border-width: 1px 5px 10px 15px;<br>
+							border-style: solid dotted dashed groove;<br>
+							border-color: red blue gold green
+						</em>
+					</td>
+				</tr>
+			</table>
+			<p>
+				Logo a seguir você vera como fica na pratica a aplicação de uma forma mais profunda de uma borda.
+			</p>
+				<em class="exemplo-borda">
+					<span class="comentario">/*Esta é exatamente a borda descrita acima*/</span>
+				</em>
+			<p>
+				Perceba que definimos tamnhos, estilos e cores diferentes em uma mesma borda. Isso se deve ao fato de que quando definimos quatro valores para cada elemento temos uma ordenação horaria que inicia na parte superior da borda e finaliza na esquerda( no nosso exemplo inicia na na cor vermelha e finaliza na cor verde).<br>
+				Outra forma que podemos exemplificar é utilizando dois valores para cada propiedade onde teriamos uma sequencia diferente em que o primeiro valor correspondendo a parte superior e inferior da borda e o segundo as laterais. Veja.<br><br>
+				<em class="exemplo2-borda">
+					<span class="comentario">/*Exemplo de borda usando apenas 2 valores para cada propiedade*/</span>
+				</em> 
+			</p>
+			<p>
+				Perceba tambem que existem varios estilos de bordas, logo a baixa confira a lista com todos os valores permitidos para o atributo <em class="marcar-texto">border-style;</em>
+			</p> 
+				<ul>
+					<li> <span>dotted </span>- Define uma borda pontilhada</li>
+					<li><span>dashed </span>- Define uma borda tracejada</li>
+					<li><span>solid </span>- Define uma borda sólido</li>
+					<li><span>double </span>- Define uma margem dupla</li>
+					<li><span>groove</span>- Define uma borda sulcada 3D. O efeito depende do valor border-color</li>
+					<li><span> ridge</span>- Define uma borda ridged 3D. O efeito depende do valor border-color</li>
+					<li> <span>inset</span>- Define uma borda inset 3D. O efeito depende do valor border-color</li>
+					<li><span>outset</span>- Define uma borda início 3D. O efeito depende do valor border-color</li>
+					<li><span>none </span>- Define sem fronteira</li>
+					<li><span>hidden </span>- Define uma borda escondida</li>
+				</ul>
+			<p class="centralizar ">
+				<a href="https://www.w3schools.com/css/css_border.asp" ><strong ><em>Clique aqui </em></strong></a> para saber mais sobre bordas
+			</p>
+		</div>
+		<hr>
+		<div id="topo">
+			<h1>Todos os direitos reservados</h1>
+		</div>
+	</body>
+</html>

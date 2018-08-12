@@ -1,0 +1,11 @@
+#fundo{
+	background-image:url('file:///home/quevem/MEGAsync/Udamy/Desenvolvimento-Web/CSS3/Primeiro%20Projeto%20CSS/imagens/fundo.png');
+}
+#topo{
+	width: 500em;
+}
+#menu{
+	background-color:#585858;
+	width: 900px;
+	
+}

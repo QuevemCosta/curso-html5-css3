@@ -1,0 +1,30 @@
+/***********************************
+*{
+	border:1px solid red;
+}
+p.verde{
+	color: green;
+}
+li>a{
+	color: red;
+	text-decoration: none;
+}
+p a {
+	color:blue;
+	text-decoration: none;
+	background: gray;
+	padding: 10px;
+}
+h1+p{
+	color: red;	
+}
+h1~p{
+	color: blue;
+}
+*/
+/*
+*****Heranças e Especividades*************
+*/
+body{
+	color:red;
+}
