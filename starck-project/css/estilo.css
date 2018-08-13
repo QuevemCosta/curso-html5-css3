@@ -11,13 +11,13 @@ body{
 Estilos do cabeçalho
 */
 #cabeçalho{
-	border:1px solid red;
+	
 	width: auto;
 	height:65 px;
 
 }
 #cabeçalho img{
-	border: 1px solid green;
+	
 	width: 320px;
 	height: 63px;
 }
@@ -28,16 +28,35 @@ Estilos do cabeçalho
 
 }
 #menu ul{
-	border: 1px solid gold;
+	
 	width: auto;
 	padding: 0px;
+	list-style-type: none;
 
 }
+
 ul a{
+	
 	display: block;
+	line-height: 2em;
+	text-decoration: none;
+	text-align:center;
+	padding: 0em 2em;
+	margin: 3px 2px;
+	
 }
-li a{
+li{
+	float: left;
+}
+a:link, a:visited{
 	color: #fff;
-	display: line;
+}
+a:hover{
+	text-decoration: underline;
+}
+/*macando pagina atual*/
+#menu #navegacao .home a,#menu #sobre #navegacao .sobre a{
+	background:#6E6E6E;
+	color: #fff;
 
 }
