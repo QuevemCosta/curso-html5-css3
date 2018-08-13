@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	font-size: 16px;
+	font-family: sans-serif;
+	}
+/*
+Estilos do cabeçalho
+*/
+#cabeçalho{
+	border:1px solid red;
+	width: auto;
+	height:65 px;
+
+}
+#cabeçalho img{
+	border: 1px solid green;
+	width: 320px;
+	height: 63px;
+}
+#menu{
+	background: #424242;
+	color:#fff;
+	height: 40px;
+
+}
+#menu ul{
+	border: 1px solid gold;
+	width: auto;
+	padding: 0px;
+
+}
+ul a{
+	display: block;
+}
+li a{
+	color: #fff;
+	display: line;
+
+}
