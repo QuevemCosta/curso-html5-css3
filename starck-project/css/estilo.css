@@ -30,7 +30,7 @@ Estilos do cabeçalho
 #menu ul{
 	
 	width: auto;
-	padding: 0px;
+	padding-top:5px;
 	list-style-type: none;
 
 }
@@ -38,11 +38,11 @@ Estilos do cabeçalho
 ul a{
 	
 	display: block;
-	line-height: 2em;
+	line-height: 1.5em;
 	text-decoration: none;
 	text-align:center;
 	padding: 0em 2em;
-	margin: 3px 2px;
+	margin: 3px 0px;
 	
 }
 li{
@@ -55,7 +55,7 @@ a:hover{
 	text-decoration: underline;
 }
 /*macando pagina atual*/
-#menu #navegacao .home a,#menu #sobre #navegacao .sobre a{
+#menu #navegacao .home a,#menu #navegacao .dowloads a{
 	background:#6E6E6E;
 	color: #fff;
 
